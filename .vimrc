@@ -6,6 +6,7 @@ filetype plugin indent on
 " Solarized dark color scheme
 set background=light
 colorscheme solarized
+se t_Co=16
 
 set hidden
 set backspace=indent,eol,start
