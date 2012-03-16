@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/wbarrett/Sites/slutton/peri'
+let g:netrw_dirhist_2='/Users/wbarrett/Sites/slutton/peri/perilabs'
+let g:netrw_dirhist_3='/Users/wbarrett/Sites/slutton/peri/perilabs/protected'
+let g:netrw_dirhist_4='/Users/wbarrett/Sites/slutton/peri/perilabs/protected/views'
+let g:netrw_dirhist_5='/Users/wbarrett/Sites/slutton/peri/perilabs/protected/views/experiments'
+let g:netrw_dirhist_6='/Users/wbarrett/github/tallgreentree/abcquick'
+let g:netrw_dirhist_7='/Users/wbarrett/github/tallgreentree/abcquick/javascripts'
+let g:netrw_dirhist_8='/Users/wbarrett/github/tallgreentree/abcquick'
+let g:netrw_dirhist_9='/Users/wbarrett/vim'
