@@ -35,6 +35,10 @@ set noswapfile
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cache'
 
+" Use system clipboard
+set clipboard=unnamed
+
+" Easier switching between windows
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
