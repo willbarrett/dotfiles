@@ -1,5 +1,16 @@
 call pathogen#infect()
 
+" Disable arrow keys
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
+
+" enable syntax highlighting
 syntax on
 filetype plugin indent on
 
@@ -22,7 +33,7 @@ set cursorline
 let mapleader = ","
 
 " Always keep 3 lines in view
-set scrolloff=3
+set scrolloff=2
 
 " Always show the tab line
 set showtabline=2
@@ -31,6 +42,11 @@ set showtabline=2
 set nobackup
 set nowb
 set noswapfile
+
+set cmdheight=2
+set switchbuf=useopen
+set numberwidth=5
+set winwidth=79
 
 " Set ignore for wildmenu and ctrlq
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX

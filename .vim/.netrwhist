@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/wbarrett/github/tallgreentree/bluebuzzardmaps/lib'
-let g:netrw_dirhist_2='/Users/wbarrett/github/tallgreentree/bluebuzzardmaps'
-let g:netrw_dirhist_3='/Users/wbarrett/github/tallgreentree/bluebuzzardmaps/app'
-let g:netrw_dirhist_4='/Users/wbarrett/github/tallgreentree/bluebuzzardmaps/app/views'
-let g:netrw_dirhist_5='/Users/wbarrett/github/tallgreentree/bluebuzzardmaps/app/views/maps'
