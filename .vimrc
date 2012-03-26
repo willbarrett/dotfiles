@@ -47,6 +47,7 @@ set cmdheight=2
 set switchbuf=useopen
 set numberwidth=5
 set winwidth=79
+set winheight=25
 
 " Set ignore for wildmenu and ctrlq
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
