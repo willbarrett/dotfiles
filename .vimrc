@@ -14,6 +14,9 @@ noremap! <Right> <Esc>
 syntax on
 filetype plugin indent on
 
+"I give up - sometimes I need NERDTree
+nnoremap <leader>d :NERDTreeToggle<cr>
+
 " Solarized dark color scheme
 set background=light
 colorscheme solarized
