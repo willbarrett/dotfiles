@@ -15,7 +15,7 @@ syntax on
 filetype plugin indent on
 
 "I give up - sometimes I need NERDTree
-nnoremap <leader>d :NERDTreeToggle<cr>
+nmap p :NERDTreeToggle<CR>
 
 " Solarized dark color scheme
 set background=light
@@ -103,6 +103,7 @@ endfunction
 
 map <leader>t :call RunTestFile()<cr>
 
+map <C-t> :CommandT<CR>
 
 " reselect visual block after indent/outdent
 vnoremap < <gv
