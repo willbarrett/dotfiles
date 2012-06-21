@@ -110,6 +110,16 @@ map <leader>t :call RunTestFile()<cr>
 vnoremap < <gv
 vnoremap > >gv
 
-" Really annoying things that should work
+" Really annoying things that should work but don't due to capitalization
 command W w
 command Q q
+command Tabnew tabnew
+command TAbnew tabnew
+command Tabn tabn
+command TAbn tabn
+command Tabp tabp
+command TAbp tabp
+command Tablas tablast
+command TAblas tablast
+command Tabfir tabfirst
+command TAbfir tabfirst
