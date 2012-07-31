@@ -41,8 +41,10 @@ set scrolloff=2
 " Always show the tab line
 set showtabline=2
 
-" sensible tab stop
+" Ruby tab stop
 set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 
 " Don't use backup or swap files. I save frequently.
 set nobackup
