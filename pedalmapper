@@ -1,0 +1,43 @@
+#!/usr/bin/python
+
+import sys
+import os
+
+pipe = open('/dev/usb/hiddev0','rb')
+action = []
+spacing = 0
+
+while 1:
+  for character in pipe.read(1):
+    action += ['%01X' % ord(character)]
+    if len(action) == 24:
+      left = False
+      right = False
+      center = False
+
+      if action[4] == '1':
+        left = True
+
+      if action[12] == '1':
+        center = True
+
+      if action[20] == '1':
+        right = True
+
+      if center:
+        os.system('xte "key i"')
+
+      if left:
+        os.system('xte "keydown Shift_L"')
+        os.system('xte "key i"')
+        os.system('xte "keyup Shift_L"')
+
+      if right:
+        os.system('xte "keydown Shift_L"')
+        os.system('xte "key a"')
+        os.system('xte "keyup Shift_L"')
+
+      if not right and not left and not center:
+        os.system('xte "key Escape"')
+
+      action = []
