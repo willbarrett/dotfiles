@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-session"]
 	path = .vim/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule ".vim/bundle/snipMate"]
+	path = .vim/bundle/snipMate
+	url = https://github.com/vim-scripts/snipMate.git
