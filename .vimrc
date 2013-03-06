@@ -14,6 +14,9 @@ noremap! <Right> <Esc>
 syntax on
 filetype plugin indent on
 
+" disable syntax highlighting for vim-gitgutter
+highlight clear SignColumn
+
 "I give up - sometimes I need NERDTree
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
