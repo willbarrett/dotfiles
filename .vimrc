@@ -111,6 +111,8 @@ endfunction
 
 map <leader>t :call RunTestFile()<cr>
 
+map <C-t> :CommandT<cr>
+
 " reselect visual block after indent/outdent
 vnoremap < <gv
 vnoremap > >gv
