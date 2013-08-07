@@ -23,7 +23,8 @@ nmap <C-n> <Esc>:NERDTreeToggle<CR>
 " Solarized dark color scheme
 set background=light
 colorscheme solarized
-se t_Co=16
+set t_Co=16
+set t_ut=
 
 set hidden
 set backspace=indent,eol,start
