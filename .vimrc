@@ -21,7 +21,7 @@ highlight clear SignColumn
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
 " Solarized dark color scheme
-set background=light
+set background=dark
 colorscheme solarized
 set t_Co=16
 set t_ut=
