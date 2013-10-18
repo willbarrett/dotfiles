@@ -64,6 +64,7 @@ set winheight=25
 " Set ignore for wildmenu and ctrlq
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cache'
+let g:ctrlp_max_files=0
 
 " Use system clipboard
 set clipboard=unnamed
@@ -112,7 +113,7 @@ endfunction
 
 map <leader>t :call RunTestFile()<cr>
 
-map <C-t> :CommandT<cr>
+" map <C-t> :CommandT<cr>
 
 " reselect visual block after indent/outdent
 vnoremap < <gv
