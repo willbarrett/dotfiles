@@ -1,1 +1,1 @@
-/.vim
+/host/code/sqwiggle/dotfiles/.vim
