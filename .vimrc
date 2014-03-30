@@ -20,6 +20,9 @@ highlight clear SignColumn
 "I give up - sometimes I need NERDTree
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
+"map semicolon to colon to avoid extra shift press
+nmap ; :
+
 " Solarized dark color scheme
 set background=dark
 colorscheme solarized
