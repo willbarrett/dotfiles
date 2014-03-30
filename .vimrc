@@ -1,15 +1,5 @@
 call pathogen#infect()
 
-" Disable arrow keys
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
-
 " enable syntax highlighting
 syntax on
 filetype plugin indent on
@@ -19,6 +9,9 @@ highlight clear SignColumn
 
 "I give up - sometimes I need NERDTree
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
+
+"map semicolon to colon to avoid extra shift press
+nmap ; :
 
 " Solarized dark color scheme
 set background=dark
