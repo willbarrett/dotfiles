@@ -17,3 +17,5 @@ ln -s `readlink -m ./.gemrc` ~/.gemrc
 
 [ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.bak
 ln -s `readlink -m ./.tmux.conf` ~/.tmux.conf
+
+git config --global color.ui auto
