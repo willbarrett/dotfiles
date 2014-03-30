@@ -1,15 +1,5 @@
 call pathogen#infect()
 
-" Disable arrow keys
-noremap  <Up> ""
-noremap! <Up> <Esc>
-noremap  <Down> ""
-noremap! <Down> <Esc>
-noremap  <Left> ""
-noremap! <Left> <Esc>
-noremap  <Right> ""
-noremap! <Right> <Esc>
-
 " enable syntax highlighting
 syntax on
 filetype plugin indent on
