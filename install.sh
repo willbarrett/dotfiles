@@ -17,3 +17,6 @@ ln -s `readlink -m ./.gemrc` ~/.gemrc
 
 [ -e ~/.tmux.conf ] && mv ~/.tmux.conf ~/.tmux.conf.bak
 ln -s `readlink -m ./.tmux.conf` ~/.tmux.conf
+
+[ -e ~/.jrnl_config ] && mv ~/.jrnl_config ~/.jrnl_config.bak
+ln -s `readlink -m ./.jrnl_config` ~/.jrnl_config
