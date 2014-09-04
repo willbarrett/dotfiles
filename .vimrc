@@ -38,6 +38,7 @@ set expandtab
 set cursorline
 
 let mapleader = ","
+let g:session_autoload = 'no'
 
 " Always keep 3 lines in view
 set scrolloff=2
