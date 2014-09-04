@@ -1,5 +1,5 @@
-" ~/dotfiles/.vim/sessions/default.vim: Vim session script.
-" Created by session.vim 1.5 on 08 July 2012 at 09:29:42.
+" ~/github/willbarrett/dotfiles/.vim/sessions/default.vim: Vim session script.
+" Created by session.vim 1.5 on 11 July 2014 at 15:19:55.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=egmrLtT
@@ -23,16 +23,18 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-args .
-set lines=39 columns=143
+badd +9 /media/will/788eadcd-d9a7-4149-9f11-af2d9d8bf16e/Dropbox/vimwiki/index.wiki
+badd +1 /media/will/788eadcd-d9a7-4149-9f11-af2d9d8bf16e/Dropbox/vimwiki/Scratchpad.wiki
+badd +0 /media/will/788eadcd-d9a7-4149-9f11-af2d9d8bf16e/Dropbox/vimwiki/Sqwiggle\ Tasks.wiki
+args ./
+set lines=56 columns=212
+edit /media/will/788eadcd-d9a7-4149-9f11-af2d9d8bf16e/Dropbox/vimwiki/Sqwiggle\ Tasks.wiki
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
 wincmd t
 set winheight=1 winwidth=1
 argglobal
-enew
-" file NERD_tree_2
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -40,7 +42,14 @@ setlocal fdi=#
 setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
-setlocal nofen
+setlocal fen
+silent! normal! zE
+let s:l = 4 - ((3 * winheight(0) + 26) / 53)
+if s:l < 1 | let s:l = 1 | endif
+exe s:l
+normal! zt
+4
+normal! 037|
 lcd ~/github/rentalutions/rentalutions
 tabnext 1
 if exists('s:wipebuf')
@@ -55,11 +64,6 @@ endif
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 unlet SessionLoad
-tabnext 1
-1wincmd w
-let s:bufnr = bufnr("%")
-NERDTree ~/github/rentalutions/rentalutions
-execute "bwipeout" s:bufnr
 tabnext 1
 1wincmd w
 
