@@ -8,7 +8,9 @@
   "highlight": true, 
   "journals": {
     "work": "~/Dropbox/work.txt",
-    "migraine": "~/Dropbox/migraine.txt"
+    "deploys": "~/Dropbox/deploys.txt",
+    "migraine": "~/Dropbox/migraine.txt",
+    "home": "~/Dropbox/home.txt"
   }, 
   "tagsymbols": "@"
 }
