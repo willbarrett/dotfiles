@@ -9,6 +9,7 @@
   "journals": {
     "work": "~/Dropbox/work.txt",
     "deploys": "~/Dropbox/deploys.txt",
+    "opensource": "~/Dropbox/opensource.txt",
     "migraine": "~/Dropbox/migraine.txt",
     "home": "~/Dropbox/home.txt"
   }, 
