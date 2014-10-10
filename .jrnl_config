@@ -11,7 +11,8 @@
     "deploys": "~/Dropbox/deploys.txt",
     "opensource": "~/Dropbox/opensource.txt",
     "migraine": "~/Dropbox/migraine.txt",
-    "home": "~/Dropbox/home.txt"
+    "home": "~/Dropbox/home.txt",
+    "learning": "~/Dropbox/learning.txt"
   }, 
   "tagsymbols": "@"
 }
