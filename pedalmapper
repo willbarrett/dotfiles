@@ -3,7 +3,7 @@
 import sys
 import os
 
-pipe = open('/dev/usb/hiddev0','rb')
+pipe = open('/dev/usb/hiddev2','rb')
 action = []
 spacing = 0
 
