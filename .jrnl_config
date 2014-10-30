@@ -7,12 +7,12 @@
   "default_minute": 0, 
   "highlight": true, 
   "journals": {
-    "work": "~/Dropbox/work.txt",
-    "deploys": "~/Dropbox/deploys.txt",
-    "opensource": "~/Dropbox/opensource.txt",
-    "migraine": "~/Dropbox/migraine.txt",
-    "home": "~/Dropbox/home.txt",
-    "learning": "~/Dropbox/learning.txt"
+    "home": "~/Dropbox/journals/home.txt",
+    "learning": "~/Dropbox/journals/learning.txt",
+    "migraine": "~/Dropbox/journals/migraine.txt",
+    "opensource": "~/Dropbox/journals/opensource.txt",
+    "personal": "~/Dropbox/journals/personal.txt",
+    "work": "~/Dropbox/journals/work.txt"
   }, 
   "tagsymbols": "@"
 }
