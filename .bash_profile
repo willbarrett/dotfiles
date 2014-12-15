@@ -3,4 +3,4 @@ source ~/.bashrc
 
 export PS1="\@ $PS1"
 
-export GOPATH="$HOME/golang"
+export GOPATH="$HOME/code"
