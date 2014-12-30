@@ -13,4 +13,4 @@ alias gcm='git commit -m'
 alias gfo='git fetch origin'
 
 # This is for vim colors in tmux
-alias tmux="TERM=xterm-256color tmux"
+alias tmux="tmux -2"

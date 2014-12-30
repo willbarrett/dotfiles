@@ -21,9 +21,14 @@ highlight clear SignColumn
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
 " Solarized dark color scheme
-set background=dark
+let hour = strftime("%H")
+if 6 <= hour && hour <= 18
+  set background=dark
+else
+  set background=light
+endif
 colorscheme solarized
-set t_Co=16
+set t_Co=256
 set t_ut=
 
 set hidden
