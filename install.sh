@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd bashmarks
+make install
+cd ..
+
 [ -e ~/.vim ] && mv ~/.vim ~/.vim.bak
 ln -s `readlink -m ./.vim` ~/.vim
 

@@ -119,6 +119,8 @@ endfunction
 
 map <leader>t :call RunTestFile()<cr>
 
+au FileType go nmap <leader>t <Plug>(go-test)
+
 " map <C-t> :CommandT<cr>
 
 " reselect visual block after indent/outdent
