@@ -35,3 +35,4 @@ export PROMPT_COMMAND='_status=$(report_status);export PS1="${_PS1}$(_git_prompt
 
 export GOPATH="$HOME/code"
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/home/will/code/src/chromium.googlesource.com/depot_tools
