@@ -55,3 +55,6 @@
 [submodule "bashmarks"]
 	path = bashmarks
 	url = git@github.com:huyng/bashmarks.git
+[submodule "gnome-terminal-colors-solarized"]
+	path = gnome-terminal-colors-solarized
+	url = git@github.com:Anthony25/gnome-terminal-colors-solarized.git
