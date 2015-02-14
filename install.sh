@@ -4,6 +4,10 @@ cd bashmarks
 make install
 cd ..
 
+cd gnome-terminal-colors-solarized
+./install.sh
+cd ..
+
 [ -e ~/.vim ] && mv ~/.vim ~/.vim.bak
 ln -s `readlink -m ./.vim` ~/.vim
 
