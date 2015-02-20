@@ -123,7 +123,7 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ -f /home/will/.travis/travis.sh ] && source /home/will/.travis/travis.sh
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/home/will/google-cloud-sdk/path.bash.inc'
+# source '/home/will/google-cloud-sdk/path.bash.inc'
 
 # The next line enables bash completion for gcloud.
-source '/home/will/google-cloud-sdk/completion.bash.inc'
+# source '/home/will/google-cloud-sdk/completion.bash.inc'
