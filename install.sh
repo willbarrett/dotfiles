@@ -20,6 +20,9 @@ ln -s `readlink -m ./.bash_aliases` ~/.bash_aliases
 [ -e ~/.bash_profile ] && mv ~/.bash_profile ~/.bash_profile.bak
 ln -s `readlink -m ./.bash_profile` ~/.bash_profile
 
+[ -e ~/.bashrc ] && mv ~/.bashrc ~/.bashrc.bak
+ln -s `readlink -m ./.bashrc` ~/.bashrc
+
 [ -e ~/.gemrc ] && mv ~/.gemrc ~/.gemrc.bak
 ln -s `readlink -m ./.gemrc` ~/.gemrc
 
