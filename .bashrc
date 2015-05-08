@@ -131,4 +131,4 @@ source '/home/will/google-cloud-sdk/completion.bash.inc'
 export NVM_DIR="/home/will/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-. ~/z/z.sh
+. "$HOME/z/z.sh"
