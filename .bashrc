@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export TERM=screen-256color-bce
+export TERM=screen-256color
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -127,3 +127,8 @@ source '/home/will/google-cloud-sdk/path.bash.inc'
 
 # The next line enables bash completion for gcloud.
 source '/home/will/google-cloud-sdk/completion.bash.inc'
+
+export NVM_DIR="/home/will/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+. ~/z/z.sh

@@ -1,1 +1,1 @@
-/.vim
+/home/will/code/src/github.com/willbarrett/dotfiles/.vim

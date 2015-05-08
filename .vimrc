@@ -29,6 +29,8 @@ else
 endif
 colorscheme solarized
 set t_Co=256
+set term=screen-256color-bce
+let g:solarized_termcolors=256
 set t_ut=
 
 set hidden
@@ -40,7 +42,7 @@ set wildmenu
 set scrolloff=3
 set autoindent
 set expandtab
-set cursorline
+" set cursorline
 
 let mapleader = ","
 let g:session_autoload = 'no'
