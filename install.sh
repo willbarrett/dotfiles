@@ -31,3 +31,5 @@ ln -s `readlink -m ./.tmux.conf` ~/.tmux.conf
 
 [ -e ~/.jrnl_config ] && mv ~/.jrnl_config ~/.jrnl_config.bak
 ln -s `readlink -m ./.jrnl_config` ~/.jrnl_config
+
+git clone git@github.com:rupa/z.git ~/z
