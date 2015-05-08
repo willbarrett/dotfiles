@@ -33,3 +33,5 @@ ln -s `readlink -m ./.tmux.conf` ~/.tmux.conf
 ln -s `readlink -m ./.jrnl_config` ~/.jrnl_config
 
 git clone git@github.com:rupa/z.git ~/z
+
+cp dircolors.ansi-dark ~/.dircolors
