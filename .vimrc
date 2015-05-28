@@ -70,7 +70,7 @@ set winwidth=79
 set winheight=25
 
 " Set ignore for wildmenu and ctrlq
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/cache/*,*/node_modules/*   " for Linux/MacOSX
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cache'
 let g:ctrlp_max_files=0
 
