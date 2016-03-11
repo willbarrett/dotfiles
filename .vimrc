@@ -46,6 +46,7 @@ set expandtab
 
 let mapleader = ","
 let g:session_autoload = 'no'
+let g:go_disable_autoinstall = 1
 
 " Always keep 3 lines in view
 set scrolloff=2
