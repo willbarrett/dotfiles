@@ -119,18 +119,20 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+PATH=$PATH:/opt/extras.ubuntu.com/uberwriter/bin
+
 # added by travis gem
 [ -f /home/will/.travis/travis.sh ] && source /home/will/.travis/travis.sh
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/home/will/google-cloud-sdk/path.bash.inc'
-
-# The next line enables bash completion for gcloud.
-source '/home/will/google-cloud-sdk/completion.bash.inc'
 
 export NVM_DIR="/home/will/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-. "$HOME/z/z.sh"
-
 eval `dircolors ~/.dircolors`
+stty -ixon
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash

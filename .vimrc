@@ -22,11 +22,11 @@ nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
 " Solarized dark color scheme
 let hour = strftime("%H")
-if 6 <= hour && hour <= 18
-  set background=dark
-else
-  set background=light
-endif
+" if 6 <= hour && hour <= 18
+"   set background=dark
+" else
+set background=light
+" endif
 colorscheme solarized
 set t_Co=256
 set term=screen-256color-bce
@@ -75,7 +75,7 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cache'
 let g:ctrlp_max_files=0
 
 " Use system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Easier switching between windows
 noremap <C-h> <C-w>h
