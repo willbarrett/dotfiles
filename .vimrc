@@ -46,6 +46,7 @@ set expandtab
 
 let mapleader = ","
 let g:session_autoload = 'no'
+let g:go_disable_autoinstall = 1
 
 " Always keep 3 lines in view
 set scrolloff=2
@@ -142,3 +143,23 @@ command Tablas tablast
 command TAblas tablast
 command Tabfir tabfirst
 command TAbfir tabfirst
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_javascript_eslint_exe='$(npm bin)/eslint'
+
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+
+autocmd BufEnter * :syntax sync fromstart
+let g:ackprg = 'ag --vimgrep'
